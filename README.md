@@ -15,6 +15,11 @@ This project is intended as a simple exploratory hello world project for interac
 ###### Target hardware
 
 #### Build the software
+command to compile:
+g++ -std=c++11 displayHello.cpp
+
+the typedefs uint8_t (defined in <cstdint> header) are part of c++11 standard.
+
 
 #### Deploy on target
 
@@ -26,7 +31,7 @@ To find the address of the display, type
 
 To run the shout test program run 'helloworld_display'
 This will light up the display.
-
+ 
 
 ###### Todo's
 - port source code to this repository
@@ -34,4 +39,4 @@ This will light up the display.
 - read in and understand how the bristolwatch code (using wiringPi) works.
 - based on this knowledge, create my own interfacing source code.
 
-This should enable me to write out text to the display...
+This should enable me to write out text to the display.
